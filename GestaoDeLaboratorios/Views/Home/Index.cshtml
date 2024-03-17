@@ -1,0 +1,44 @@
+﻿@{
+    ViewData["Title"] = "Lista de Computadores Cadastrados";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Sistema Patrimonial de Computadores 2024</h1>
+    <br />
+    <h2>Seja bem-vindo(a), nomeDoUsuario!</h2>
+    <p>GestaoLabPC ver.001-2024</p>
+</div>
+
+<div class="container mt-5">
+    <h2>Lista de Computadores</h2>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Marca</th>
+                <th>Processador</th>
+                <th>Placa-Mãe</th>
+                <th>Memória</th>
+                <th>HD</th>
+                <th>Número do Patrimônio</th>
+                <th>Data de Compra</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var computador in Model)
+            {
+                <tr>
+                    <td>@computador.Id</td>
+                    <td>@computador.Marca</td>
+                    <td>@computador.Processador</td>
+                    <td>@computador.PlacaMae</td>
+                    <td>@computador.Memoria</td>
+                    <td>@computador.Hd</td>
+                    <td>@computador.NumeroPatrimonio</td>
+                    <td>@computador.DataCompra.ToShortDateString()</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
