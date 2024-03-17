@@ -15,6 +15,11 @@
   <img src="https://github.com/andrebecker84/GestaoDeLaboratorios/assets/39974878/63814923-c465-42c9-b68b-5bd5987f82d5">
 </p>
 
+<p align="center">
+  <img src="[https://github.com/andrebecker84/GestaoDeLaboratorios/assets/39974878/63814923-c465-42c9-b68b-5bd5987f82d5](https://github.com/andrebecker84/GestaoDeLaboratorios/assets/39974878/8d550413-3dc6-40af-ac71-1e47231c33a5)">
+</p>
+
+
 ---
 
 ## ENUNCIADO
